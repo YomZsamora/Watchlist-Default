@@ -15,10 +15,10 @@ The roject has dependecies that require Flask together with PIP. So make sure yo
 
 ##### Setup Instructions and Installation
 
-- Clone this repository to a location in your file system. 'git clone https://github.com/YomZsamora/Watchlist-Default.git'
-- Open terminal command line then navigate to the root folder of the application. 'cd Watchlist-Default'
-- Activate Virtual 'source virtual/bin/activate'
-- Ensure Flask-Script, Flask-Bootstrap, Postgres, Flask-SQLAlchemy & Flask-Forms are installed by typing 'pip freeze' on the terminal. If not run the necessary commands to install them.
+- Clone this repository to a location in your file system. `git clone https://github.com/YomZsamora/Watchlist-Default.git`
+- Open terminal command line then navigate to the root folder of the application. `cd Watchlist-Default`
+- Activate Virtual `source virtual/bin/activate`
+- Ensure Flask-Script, Flask-Bootstrap, Postgres, Flask-SQLAlchemy & Flask-Forms are installed by typing `pip freeze` on the terminal. If not run the necessary commands to install them.
 - After installing the dependencies, setup your environment variables. Run the following commands on the terminal: `export MOVIE_API_KEY=<Your api key>` then `export SECRET_KEY=adzumi`
 - Run `./start.sh` command. Note this will work if you've properly configured your app with the required dependencies 
 - Navigate to `http://localhost:5000/` in your browser.
